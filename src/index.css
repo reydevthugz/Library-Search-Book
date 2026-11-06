@@ -1,0 +1,59 @@
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Application */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #1e293b;
+  background: #f1f5f9;
+}
+
+/* Body */
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f1f5f9;
+}
+
+/* React Root */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Form Elements */
+button,
+input {
+  font-family: inherit;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+  body {
+    min-width: 320px;
+  }
+}
